@@ -1,4 +1,5 @@
 import 'package:chatting/Screens/home_screen.dart';
+import 'package:chatting/Screens/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +15,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'LetsChat',
       theme: ThemeData(),
-      home: const Homescreen(),
+      // home: const Homescreen(),
+      home: const SplashScreen(),
     );
   }
 }
